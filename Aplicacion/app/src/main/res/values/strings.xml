@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="resultado">RESULTADOS</string>
+    <string name="seno">SENO:</string>
+    <string name="coseno">COSENO:</string>
+    <string name="area">Area triangulo:</string>
+    <string name="perimetro">perimetro rectangulo:</string>
+    <string name="Ingresar_Angulo">Angulo</string>
+    <string name="Ingresar_opuesto">Opuesto</string>
+    <string name="Ingresar_hipotenusa">Hipotenusa</string>
+    <string name="Ingresar_adyacente">Adyacente</string>
+    <string name="Base">Base</string>
+    <string name="Altura">Altura</string>
+    <string name="calculo">CALCULAR</string>
+    <string name="Instrucciones">Todas las medidas que sena ingresadas seran tomadas en centimetros a excepcion de los angulos</string>
+
+
+</resources>

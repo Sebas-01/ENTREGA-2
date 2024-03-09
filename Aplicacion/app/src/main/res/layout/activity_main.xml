@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/app_name"
+        android:layout_margin="15sp"
+        android:textSize="50sp"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/instrucciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Instrucciones"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:background="#01579B"
+        android:layout_margin="5sp"
+        android:fontFamily="serif-monospace"
+
+
+        >
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50sp"
+        >
+
+        <TextView
+            android:id="@+id/seno"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/seno"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+
+            >
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/hipotenusa"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:numeric="integer"
+            android:text="@string/Ingresar_hipotenusa"
+            android:textAlignment="center">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/opuesto"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:text="@string/Ingresar_opuesto"
+            android:textAlignment="center"
+            >
+
+        </EditText>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40sp"
+        >
+
+        <TextView
+            android:id="@+id/coseno"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/coseno"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+
+            >
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/adyacente"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:text="@string/Ingresar_adyacente"
+            android:textAlignment="center"
+            >
+
+        </EditText>
+        <EditText
+            android:id="@+id/hipotenusaCos"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:text="@string/Ingresar_hipotenusa"
+            android:textAlignment="center"
+            >
+
+        </EditText>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40sp"
+        >
+
+        <TextView
+            android:id="@+id/area"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/area"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            >
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/base"
+            android:layout_weight="1.8"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:text="@string/Base"
+            android:textAlignment="center"
+            >
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/altura"
+            android:layout_weight="1.8"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:text="@string/Altura"
+            android:textAlignment="center">
+
+        </EditText>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40sp"
+        >
+
+        <TextView
+            android:id="@+id/perimetro"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/perimetro"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            >
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/basePer"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:text="@string/Base"
+            android:textAlignment="center">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/alturaPer"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:text="@string/Altura"
+            android:textAlignment="center"
+            >
+
+        </EditText>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50sp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/calculo"
+        android:textAlignment="center"
+        android:textSize="30sp">
+
+    </Button>
+</LinearLayout>

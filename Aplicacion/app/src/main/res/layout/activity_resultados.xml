@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".Resultados">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/resultado"
+        android:textSize="50sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        >
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50sp"
+        >
+        <TextView
+            android:id="@+id/Seno"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/seno"
+            android:textSize="40sp"
+            android:textAlignment="textStart"
+            android:textColor="@color/white"
+            >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/resultSeno"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:text= ""
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50sp"
+        >
+        <TextView
+            android:id="@+id/Coseno"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/coseno"
+            android:textSize="40sp"
+            android:textAlignment="textStart"
+            android:textColor="@color/white"
+            >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/resultCoseno"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50sp"
+        >
+        <TextView
+            android:id="@+id/Area"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/area"
+            android:textSize="40sp"
+            android:textAlignment="textStart"
+            android:textColor="@color/white"
+            >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/resultArea"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="40sp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50sp"
+        >
+        <TextView
+            android:id="@+id/Perimetro"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/perimetro"
+            android:textSize="40sp"
+            android:textAlignment="textStart"
+            android:textColor="@color/white"
+            >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/resultPerimetro"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
